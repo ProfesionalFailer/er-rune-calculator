@@ -1,0 +1,93 @@
+/* Page styling */
+body {
+	font-family: Arial, sans-serif;
+	max-width: 600px; /* Limits width for readability */
+	margin: auto;
+	padding: 20px;
+}
+
+/* Center-aligns main heading */
+h1 {
+	text-align: center;
+}
+
+/* Rune category box styling */
+.rune-category {
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+/* Header for each rune category with collapsible effect */
+.category-header {
+	background-color: #f2f2f2;
+	padding: 10px;
+	cursor: pointer; /* Pointer cursor for clickable header */
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Collapsible content within each category */
+.category-div {
+	display: block;
+	padding: 10px;
+}
+
+/* Flex layout for rune level entry */
+.rune-level {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+}
+
+/* Label styling in rune level entry */
+.rune-level label {
+	flex-grow: 1; /* Expands label to fill available space */
+}
+
+/* Quantity display with centered text */
+.quantity {
+	width: 70px;
+	text-align: center;
+	margin: 0 5px;
+}
+
+/* Styling for increment/decrement buttons */
+.increment-btn,
+.decrement-btn {
+	padding: 10px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	border-radius: 50%; /* Circular button shape */
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Hover effect for increment/decrement buttons */
+.increment-btn:hover,
+.decrement-btn:hover {
+	background-color: #0056b3;
+}
+
+/* Result display */
+#result {
+	font-size: 1.5em;
+	text-align: center;
+	color: #4caf50;
+	margin-top: 20px;
+}
+
+/* Full-width reset button */
+#resetButton {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.2em;
+	margin: 20px 0;
+}
